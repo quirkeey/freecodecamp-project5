@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+  }
+  ul {
+    list-style: none;
+  }
+  a {
+    text-decoration: none;
+  }
+  .logo {
+    font-family: 'Syne Tactile', cursive;
+  }
+  .nav {
+    top: 0;
+    position: fixed;
+    width: 100%;
+    min-height: 50px;
+    background-color: #F7D0F7;
+  }
+  .nav ul {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  @media (max-width: 600px) {
+    .nav ul {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .nav {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  nav li {
+   font-size: 20px;
+  }
+  h1 {
+    font-family: Raleway, sans-serif;
+    font-size: 48px;
+    text-align: center;
+    margin-top: 200px;
+  }
+  h2 {
+    font-family: Raleway, sans-serif;
+    font-size: 36px;
+     text-align: center;
+  }
+  .about-section p {
+    font-family: Raleway, sans-serif;
+    font-size: 36px;
+    margin: 50px 0;
+    text-align: center;
+  }
+  .projects p, .projects a {
+    font-family: Raleway, sans-serif;
+    font-size: 22px
+  }
+  hr {
+    width: 60%;
+  }
+  .contact-section p, .contact-section a {
+    font-family: Raleway, sans-serif;
+    font-size: 22px
+  }
+  section {
+    margin: 100px 0;
+  }
+  #welcome-section {
+    height: 100vh;
+  }
+  .projects {
+    display: flex;
+    justify-content: space-around
+  }
+  .project-tile {
+    width: 18rem;
+    height: 14rem;
+    border: 4px solid #A82FA8;
+    margin: 10px 10px;
+  }
+  @media (max-width: 750px) {
+    .projects {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  .contact-links {
+    display: flex;
+    justify-content: space-around;
+  }
+  @media (max-width: 600px) {
+    .contact-links {
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
+    }
+  }
+  footer {
+    border-top: 4px solid #A82FA8;
+    width: 100%;
+    min-height: 50px;
+    display: flex;
+    justify-content: flex-end;
+  }
