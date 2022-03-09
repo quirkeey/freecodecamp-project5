@@ -7,8 +7,14 @@
   a {
     text-decoration: none;
   }
+  p.logo {
+    font-family: 'League Spartan', sans-serif;
+    font-size: 64px;
+    padding: 20px 10px 0 20px;
+    margin: 0;
+  }
   .logo {
-    font-family: 'Syne Tactile', cursive;
+    font-family: 'League Spartan', sans-serif;
   }
   .nav {
     top: 0;
@@ -19,7 +25,7 @@
   }
   .nav ul {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-end;
   }
   @media (max-width: 600px) {
     .nav ul {
@@ -35,6 +41,7 @@
   }
   nav li {
    font-size: 20px;
+   padding: 0 25px;
   }
   h1 {
     font-family: Raleway, sans-serif;
