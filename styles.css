@@ -7,21 +7,21 @@
   a {
     text-decoration: none;
   }
+  header {
+    background-color: #F7D0F7;
+    position: fixed;
+    width: 100%;
+    height: auto;
+    top: 0;
+  }
   p.logo {
     font-family: 'League Spartan', sans-serif;
     font-size: 64px;
-    padding: 20px 10px 0 20px;
-    margin: 0;
+    margin-bottom: -30px;
+    padding-left: 20px;
   }
   .logo {
     font-family: 'League Spartan', sans-serif;
-  }
-  .nav {
-    top: 0;
-    position: fixed;
-    width: 100%;
-    min-height: 50px;
-    background-color: #F7D0F7;
   }
   .nav ul {
     display: flex;
