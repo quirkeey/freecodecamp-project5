@@ -89,7 +89,7 @@
     left: 50%;
     transform: translate(-50%, 0);
     background: radial-gradient(var(--hair) 25%, black 75%)
-  }*/
+  }
   .cartoon {
     position: absolute;
     bottom: 0;
@@ -118,7 +118,6 @@
     position: absolute;
   }
   
-  /****/
   .cartoon {
     --skin: #955741;
     --hair: #3a130a;
@@ -400,7 +399,7 @@
   .projects p, .projects a {
     font-family: Raleway, sans-serif;
     font-size: 22px
-  }
+  }*/
   hr {
     width: 60%;
   }
